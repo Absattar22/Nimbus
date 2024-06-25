@@ -153,7 +153,7 @@ class _WeatherBodyState extends State<WeatherBody> {
                 TextButton(
                   onPressed: () => onTabSelected(2),
                   child: Text(
-                    'Next 7 days',
+                    'Next 3 days',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 18,
