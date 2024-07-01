@@ -2,7 +2,7 @@
 
 ## About
 
-Nimbus is a user-friendly weather application that provides current weather information and forecasts for the next three days. The app allows users to search for weather conditions by city name and features a visually appealing user interface (UI) and user experience (UX). Each weather condition is displayed with corresponding images to enhance the user experience.
+**Nimbus is an intuitive weather application that delivers current weather updates and forecasts for the next three days. Users can search for weather conditions by entering a city name, enjoying a visually appealing interface and smooth user experience. Each weather condition is accompanied by relevant images to enrich the user interaction.**
 
 ### Features
 - **Current Weather: View the current weather conditions for any city.**
@@ -14,4 +14,5 @@ Nimbus is a user-friendly weather application that provides current weather info
 
 - **Flutter**: Built using Flutter, the app delivers a smooth and responsive UI on both iOS and Android platforms.
 - **Cubit**: Utilizes Cubit for state management to ensure efficient and predictable state transitions.
-- **REST API**: Retrieves weather information from online sources.
+- **Dio**: Used for making HTTP requests to fetch weather data from the internet.
+- **flutter_launcher_icons**:  used for customizing the app icon.
