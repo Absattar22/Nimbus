@@ -1,4 +1,7 @@
+
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:nimbus/cubits/get%20weather%20cubit/get_weather_cubit.dart';
 
 class SearchView extends StatelessWidget {
   const SearchView({super.key});
@@ -27,12 +30,18 @@ class SearchView extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: const Padding(
-        padding: EdgeInsets.all(8.0),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
         child: TextField(
+          onSubmitted: (value) async {
+             var getWeatherCubit = BlocProvider.of<GetWeatherCubit>(context);
+             getWeatherCubit.getWeather(cityName :value);
+
+            Navigator.pop(context);
+          },
           cursorColor: Colors.white,
-          style: TextStyle(color: Colors.white), // User input text color
-          decoration: InputDecoration(
+          style: const TextStyle(color: Colors.white), // User input text color
+          decoration: const InputDecoration(
             filled: true, // Fill the TextField background
             fillColor: Color.fromARGB(255, 23, 23, 53), // Background color
             contentPadding: EdgeInsets.symmetric(
@@ -63,3 +72,4 @@ class SearchView extends StatelessWidget {
     );
   }
 }
+
