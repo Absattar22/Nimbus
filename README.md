@@ -1,16 +1,17 @@
-# nimbus
+# The Scoop App
 
-A new Flutter project.
+## About
 
-## Getting Started
+Nimbus is a user-friendly weather application that provides current weather information and forecasts for the next three days. The app allows users to search for weather conditions by city name and features a visually appealing user interface (UI) and user experience (UX). Each weather condition is displayed with corresponding images to enhance the user experience.
 
-This project is a starting point for a Flutter application.
+### Features
+- **Current Weather: View the current weather conditions for any city.**
+- **3-Day Forecast: Get a forecast for the next three days.**
+- **City Search: Search weather conditions by entering a city name.**
+- **Visuals: Each weather condition is displayed with a relevant image.**
 
-A few resources to get you started if this is your first Flutter project:
+### Technology Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Flutter**: Built using Flutter, the app delivers a smooth and responsive UI on both iOS and Android platforms.
+**Cubit**: Utilizes Cubit for state management to ensure efficient and predictable state transitions.
+**REST API**: Retrieves weather information from online sources.
