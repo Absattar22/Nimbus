@@ -12,6 +12,6 @@ Nimbus is a user-friendly weather application that provides current weather info
 
 ### Technology Stack
 
-**Flutter**: Built using Flutter, the app delivers a smooth and responsive UI on both iOS and Android platforms.
-**Cubit**: Utilizes Cubit for state management to ensure efficient and predictable state transitions.
-**REST API**: Retrieves weather information from online sources.
+- **Flutter**: Built using Flutter, the app delivers a smooth and responsive UI on both iOS and Android platforms.
+- **Cubit**: Utilizes Cubit for state management to ensure efficient and predictable state transitions.
+- **REST API**: Retrieves weather information from online sources.
