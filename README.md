@@ -1,4 +1,4 @@
-# The Scoop App
+# Nimbus App
 
 ## About
 
