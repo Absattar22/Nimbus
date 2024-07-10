@@ -16,3 +16,16 @@
 - **Cubit**: Utilizes Cubit for state management to ensure efficient and predictable state transitions.
 - **Dio**: Used for making HTTP requests to fetch weather data from the internet.
 - **flutter_launcher_icons**:  used for customizing the app icon.
+
+###  ScreenShots :
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/Absattar22/Nimbus/assets/116181912/8e4895df-6264-4ce2-bb02-e133caf8deff" alt="Main Screen" width="200"/>
+    <img src="https://github.com/Absattar22/Nimbus/assets/116181912/a69a7549-168a-45a6-8a67-8411cf0df3a3" alt="Technology Screen" width="200"/>
+    <img src="https://github.com/Absattar22/Nimbus/assets/116181912/bd695e8f-3ccc-41d2-93bf-e2af8e4f84a4" alt="Technology Screen" width="200"/>
+</div>
+
+
+## Video :
+
+https://github.com/Absattar22/Nimbus/assets/116181912/5eb4c0dd-76b3-44fa-a82b-c7c06f835936
+
